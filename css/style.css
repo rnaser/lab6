@@ -1,28 +1,71 @@
+#onpage{
+  text-decoration: underline overline; 
+}
+
+
 #main-navbar{
-	background-color: blue;
-	overflow: hidden; 
-
+  background-color: blue; 
+  overflow: hidden;
 }
 
-#navbar-container{
-	text-align: center;
-	width: 100%; 
-	
-	float: left;
+#navbar-container{ 
+  position: relative; 
+  width: 100%;
+  float: left;
 }
 
-#main-navbar ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	
-	vertical-align: top;
-	position: relative; 
+#navbar-container ul{
+  left: 50%;
+  margin: 0; 
+  padding: 0; 
+  position: relative; 
+  list-style-type: none; 
+  float: left;
 }
-#main-navbar ul li {
-	display: block; 
+
+#navbar-container ul li{ 
+  display: block; 
   float: left;
   right: 50%;
   position: relative;
 }
 
+#navbar-container ul li a{
+  text-decoration: none; 
+  display: block; 
+  color: #fff; 
+  padding: 10px 20px;  
+}
+
+#navbar-container ul li a:hover{
+  background-color: #000; 
+}
+
+
+
+#sidebar-container{
+  position: fixed;
+  right: 0%;
+  height: 100%;
+  width: 20%;
+  background-color: red;
+  
+}
+
+#sidebar-container ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+#sidebar-container ul li a{
+  text-align: center;
+  padding: 15px 0;
+  color: #fff;
+  display: block;
+  text-decoration: none;
+  
+}
+
+#sidebar-container ul li a:hover{
+  background-color: #000;
+}
