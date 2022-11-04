@@ -1,13 +1,13 @@
 #main-navbar{
 	background-color: blue;
-	 overflow: hidden; 
+	overflow: hidden; 
 
 }
 
 #navbar-container{
 	text-align: center;
 	width: 100%; 
-	overflow: hidden; 
+	
 	float: left;
 }
 
